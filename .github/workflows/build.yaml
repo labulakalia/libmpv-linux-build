@@ -83,7 +83,7 @@ jobs:
         > ffmpeg_options
         printf "%s\n" --enable-small >> ffmpeg_options
         printf "%s\n" --enable-libass >> ffmpeg_options
-
+        printf "%s\n" --enable-gpl >> ffmpeg_options
         printf "%s\n" --disable-bzlib >> ffmpeg_options
         printf "%s\n" --disable-outdevs >> ffmpeg_options
         printf "%s\n" --disable-filters >> ffmpeg_options
